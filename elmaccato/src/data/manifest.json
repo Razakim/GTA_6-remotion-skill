@@ -1,0 +1,51 @@
+{
+  "project": "video02-gta6-police-ai",
+  "title": "GTA VI : comment fonctionne le système policier ?",
+  "language": "fr",
+  "source_script": "assets/Inside GTA 6’s IMPOSSIBLE Police AI.txt",
+  "editorial_as_of": "2026-11-10",
+  "output": "out/video02-gta6-police-ai.mp4",
+  "format": "silent visual explainer; no narration or music; concise on-screen French summary of the supplied script",
+  "editorial_notes": [
+    "A condensed adaptation of the 534-line source script, not a verbatim subtitle track.",
+    "Gameplay details are attributed to Rockstar interviews, official footage or named press previews; speculative interpretations are identified on screen.",
+    "Irreversible Psycho profile details are labeled as a pre-release report, subject to confirmation in the final game.",
+    "Release date is current as of 2026-11-10 and is attributed to Rockstar Games.",
+    "Les images elles-mêmes sont animées par trajectoires de caméra et compositions en cartes; les cartes sélectionnées peuvent s’ouvrir en plein écran. Le seul fichier vidéo du catalogue est un plan de présentateur sans rapport visuel avec GTA VI, donc les scènes de gameplay restent sur les images sources en attendant des extraits pertinents.",
+    "La direction visuelle a été renforcée : images sur un décor Vice City issu de public/assets/background, titres et repères intégrés à la palette sunset, éventails de médias récurrents et agrandissements en plein écran. Les illustrations de fond sont inventoriées dans le catalogue média."
+  ],
+  "sources": [
+    {
+      "publisher": "Rockstar Games",
+      "title": "Grand Theft Auto VI: An Extended Look",
+      "date": "2026-08-27",
+      "url": "https://www.rockstargames.com/newswire/article/9k2kaa1o3297k9/grand-theft-auto-vi-an-extended-look"
+    },
+    {
+      "publisher": "IGN",
+      "title": "Grand Theft Auto 6: The Full Rockstar North Interview",
+      "date": "2026-10-07",
+      "url": "https://www.ign.com/articles/grand-theft-auto-6-the-full-rockstar-north-interview"
+    },
+    {
+      "publisher": "PC Gamer",
+      "title": "GTA 6’s Criminal Profile ...",
+      "date": "2026-10-30",
+      "url": "https://www.pcgamer.com/games/grand-theft-auto/gta-6s-souped-up-red-dead-redemption-2-style-morality-system-will-scale-from-professional-to-irredeemable-so-players-can-decide-what-kind-of-criminal-they-want-to-be/"
+    },
+    {
+      "publisher": "Rockstar Games",
+      "title": "Grand Theft Auto VI",
+      "date": "accessed 2026-11-10",
+      "url": "https://www.rockstargames.com/VI"
+    },
+    {
+      "publisher": "PC Gamer",
+      "title": "GTA 6’s Criminal Profile system sounds pretty interesting, includes a “shattered” state",
+      "date": "2026-09-07",
+      "url": "https://www.pcgamer.com/games/grand-theft-auto/gta-6s-criminal-profile-system-sounds-pretty-interesting-isnt-a-direct-copy-of-red-deads-honor-system/"
+    }
+  ],
+  "scene_count": 30,
+  "duration_seconds": 176.1
+}

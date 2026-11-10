@@ -1,0 +1,129 @@
+[
+  {
+    "id": "motion-surveillance-build",
+    "seconds": 6,
+    "pace": "steady",
+    "visual": {
+      "type": "motion",
+      "stage": "plum",
+      "elements": [
+        {
+          "id": "street-footage",
+          "kind": "image",
+          "src": "assets/characters/shared/screenshots/gta-6-jason-and-lucia-17-1080.jpg",
+          "start": 0,
+          "duration": 6,
+          "x": 0,
+          "y": 0,
+          "width": 1920,
+          "height": 1080,
+          "style": { "objectFit": "cover" },
+          "motion": [
+            { "t": 0, "scale": 1.06, "x": -28, "ease": "in-out" },
+            { "t": 6, "scale": 1.14, "x": 15 }
+          ]
+        },
+        {
+          "id": "freeze-darken",
+          "kind": "panel",
+          "start": 1.35,
+          "duration": 4.65,
+          "x": 0,
+          "y": 0,
+          "width": 1920,
+          "height": 1080,
+          "style": { "background": "rgba(15, 12, 29, .58)" },
+          "motion": [
+            { "t": 0, "opacity": 0 },
+            { "t": 0.35, "opacity": 1, "ease": "out" }
+          ]
+        },
+        {
+          "id": "surveillance-frame",
+          "kind": "group",
+          "start": 1.35,
+          "duration": 4.65,
+          "x": 1010,
+          "y": 190,
+          "width": 770,
+          "height": 520,
+          "z": 3,
+          "rotation": -3,
+          "scale": 0.62,
+          "style": { "overflow": "visible" },
+          "motion": [
+            { "t": 0, "x": 1230, "y": 235, "scale": 0.62, "rotation": 6, "opacity": 0 },
+            { "t": 0.7, "x": 1010, "y": 190, "scale": 1, "rotation": -3, "opacity": 1, "ease": "spring" },
+            { "t": 3.7, "x": 970, "y": 158, "scale": 1.06, "rotation": -1 }
+          ],
+          "children": [
+            {
+              "id": "surveillance-photo",
+              "kind": "image",
+              "src": "assets/characters/shared/screenshots/jason-and-lucia-03-1080.jpg",
+              "start": 0,
+              "duration": 4.65,
+              "x": 0,
+              "y": 0,
+              "width": 770,
+              "height": 520,
+              "style": { "objectFit": "cover", "border": "3px solid #F3EAD8", "borderRadius": 14, "boxShadow": "0 24px 60px #000b" }
+            },
+            {
+              "id": "camera-stamp",
+              "kind": "text",
+              "text": "CAM 04  /  IDENTITÉ CONSERVÉE",
+              "start": 0.22,
+              "duration": 4.43,
+              "x": 28,
+              "y": 30,
+              "width": 510,
+              "height": 48,
+              "z": 2,
+              "style": { "background": "#F3EAD8", "color": "#181731", "fontSize": 20, "fontWeight": 900, "letterSpacing": 2, "padding": "10px 15px", "clipPath": "polygon(0 0, 100% 0, 95% 100%, 0 100%)" }
+            }
+          ]
+        },
+        {
+          "id": "tracking-route",
+          "kind": "path",
+          "start": 2.1,
+          "duration": 3.9,
+          "x": 102,
+          "y": 775,
+          "width": 780,
+          "height": 160,
+          "z": 4,
+          "d": "M 12 118 C 172 118 179 26 325 58 S 534 144 760 25",
+          "pathLength": 1000,
+          "stroke": "#FA657B",
+          "strokeWidth": 7,
+          "motion": [
+            { "t": 0, "draw": 0 },
+            { "t": 1.2, "draw": 1, "ease": "out" }
+          ]
+        },
+        {
+          "id": "thesis",
+          "kind": "text",
+          "text": "Le signal vous précède.",
+          "start": 2.7,
+          "duration": 3.3,
+          "x": 115,
+          "y": 825,
+          "width": 860,
+          "height": 100,
+          "z": 5,
+          "style": { "color": "#FFF5E8", "fontSize": 54, "fontWeight": 900, "lineHeight": 1, "letterSpacing": -1, "textShadow": "3px 5px 0 #7A285C" },
+          "motion": [
+            { "t": 0, "x": 25, "opacity": 0, "scale": 0.92 },
+            { "t": 0.55, "x": 115, "opacity": 1, "scale": 1, "ease": "out" },
+            { "t": 2.2, "y": 805, "scale": 1.04 }
+          ]
+        }
+      ]
+    },
+    "entrance": { "type": "cut" },
+    "overlays": []
+  }
+]

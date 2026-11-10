@@ -1,0 +1,1169 @@
+[
+  {
+    "id": "opening-police-memory",
+    "seconds": 5.5,
+    "pace": "slow",
+    "entrance": {
+      "type": "cut",
+      "seconds": 0
+    },
+    "visual": {
+      "type": "montage",
+      "layout": "fan",
+      "pinned": "LA POLICE GARDE LA MÉMOIRE",
+      "timeline": true,
+      "reveal": {
+        "card": 1,
+        "at": 1.7,
+        "seconds": 1.1
+      },
+      "cards": [
+        {
+          "type": "image",
+          "src": "assets/characters/jason/screenshots/gta-6-jason-duval-11-1080.jpg",
+          "label": "FUITE · MOTO",
+          "detail": "La poursuite est déjà lancée."
+        },
+        {
+          "type": "image",
+          "src": "assets/characters/lucia/screenshots/gta6-screen-extendedlook-21-1080.jpg",
+          "label": "LUCIA · FEUX BLEUS",
+          "detail": "La police s’invite dans le rétroviseur."
+        },
+        {
+          "type": "image",
+          "src": "assets/map/regions/vice-city/screenshots/gta-6-vice-city-17-1080.jpg",
+          "label": "PÉRIMÈTRE",
+          "detail": "La scène reste visible depuis la ville."
+        }
+      ]
+    },
+    "overlays": []
+  },
+  {
+    "id": "gta-v-to-gta-vi",
+    "seconds": 6,
+    "pace": "steady",
+    "entrance": {
+      "type": "wipe",
+      "seconds": 0.38
+    },
+    "visual": {
+      "type": "graphic",
+      "style": "paper-grid"
+    },
+    "overlays": [
+      {
+        "kind": "evidence",
+        "t": 0.15,
+        "title": "L’ancien réflexe · GTA V",
+        "lines": [
+          "Alerte = renforts qui apparaissent",
+          "Carte = cônes de vision",
+          "Perdre les étoiles = oubli rapide"
+        ],
+        "reveal": "Dans GTA VI, l’information survit à la poursuite.",
+        "animation": "rise",
+        "x": 1080,
+        "y": 350,
+        "width": 720
+      },
+      {
+        "kind": "headline",
+        "t": 0.35,
+        "kicker": "LE CHANGEMENT",
+        "text": "La police n’oublie plus",
+        "animation": "slide-right"
+      }
+    ]
+  },
+  {
+    "id": "crime-reporting",
+    "seconds": 6,
+    "pace": "steady",
+    "entrance": {
+      "type": "flash",
+      "seconds": 0.22
+    },
+    "visual": {
+      "type": "image",
+      "src": "assets/characters/shared/screenshots/gta-6-jason-and-lucia-15-1080.jpg",
+      "camera": "arc-left"
+    },
+    "overlays": [
+      {
+        "kind": "headline",
+        "t": 0.15,
+        "kicker": "DÉCLENCHEURS",
+        "text": "Qui a donné l’alerte ?",
+        "animation": "rise"
+      },
+      {
+        "kind": "caption",
+        "t": 1.4,
+        "text": "Rob Nelson décrit un témoin ou une alarme comme déclencheur du signalement.",
+        "animation": "slide-left"
+      },
+      {
+        "kind": "focus",
+        "t": 2.25,
+        "x": 1030,
+        "y": 395,
+        "width": 500,
+        "height": 370,
+        "title": "UN TÉMOIN",
+        "detail": "Les personnes sur place peuvent prévenir les autorités.",
+        "side": "left",
+        "color": "#f49ac1"
+      }
+    ]
+  },
+  {
+    "id": "evidence-before-crime",
+    "seconds": 6,
+    "pace": "steady",
+    "entrance": {
+      "type": "wipe",
+      "seconds": 0.38
+    },
+    "visual": {
+      "type": "montage",
+      "layout": "fan",
+      "pinned": "LE CRIME SE PRÉPARE",
+      "timeline": true,
+      "reveal": {
+        "card": 1,
+        "at": 2.0,
+        "seconds": 1.1
+      },
+      "cards": [
+        {
+          "type": "image",
+          "src": "assets/characters/shared/screenshots/gta6-screen-extendedlook-17-ign-1080.jpg",
+          "label": "S’ÉQUIPER",
+          "detail": "Jason et Lucia sont armés."
+        },
+        {
+          "type": "image",
+          "src": "assets/characters/shared/screenshots/gta-6-jason-and-lucia-15-1080.jpg",
+          "label": "SE MASQUER",
+          "detail": "Visages couverts avant le braquage."
+        },
+        {
+          "type": "image",
+          "src": "assets/editorials/gta6-screen-extendedlook-08-1080.jpg",
+          "label": "PRÉPARER LA SORTIE",
+          "detail": "Le duo repart avec ses sacs."
+        }
+      ]
+    },
+    "overlays": []
+  },
+  {
+    "id": "visible-weapon",
+    "seconds": 6,
+    "pace": "fast",
+    "entrance": {
+      "type": "cut",
+      "seconds": 0
+    },
+    "visual": {
+      "type": "image",
+      "src": "assets/characters/shared/screenshots/gta6-screen-extendedlook-06-1080.jpg",
+      "camera": "whip-right"
+    },
+    "overlays": [
+      {
+        "kind": "headline",
+        "t": 0.12,
+        "kicker": "ARMES · VISIBILITÉ",
+        "text": "Une arme change l’ambiance",
+        "animation": "rise"
+      },
+      {
+        "kind": "caption",
+        "t": 1.15,
+        "text": "Dans les aperçus, les passants réagissent à une arme tenue à la main.",
+        "animation": "slide-left"
+      },
+      {
+        "kind": "focus",
+        "t": 2.0,
+        "x": 660,
+        "y": 345,
+        "width": 470,
+        "height": 430,
+        "title": "ARME EXPOSÉE",
+        "detail": "La porter visible attire l’attention.",
+        "side": "right",
+        "color": "#f5a524"
+      }
+    ]
+  },
+  {
+    "id": "stash-and-loadout",
+    "seconds": 5.5,
+    "pace": "steady",
+    "entrance": {
+      "type": "wipe",
+      "seconds": 0.38
+    },
+    "visual": {
+      "type": "image",
+      "src": "assets/vehicles/autres/safehouse-vehicles/ultimateedition-safehouse-vehicles-01-1080.jpg",
+      "camera": "pan-right"
+    },
+    "overlays": [
+      {
+        "kind": "headline",
+        "t": 0.18,
+        "kicker": "GESTION D’ÉQUIPEMENT",
+        "text": "Le coffre devient stratégique",
+        "animation": "rise"
+      },
+      {
+        "kind": "caption",
+        "t": 1.8,
+        "text": "Laisser les armes lourdes dans le véhicule limite ce qui est visible.",
+        "animation": "slide-left"
+      },
+      {
+        "kind": "label",
+        "t": 2.35,
+        "x": 1190,
+        "y": 690,
+        "text": "CHOIX DE CHARGE",
+        "detail": "Emporter seulement le nécessaire",
+        "color": "#37c28a",
+        "animation": "pop"
+      }
+    ]
+  },
+  {
+    "id": "mask-and-change",
+    "seconds": 5.5,
+    "pace": "steady",
+    "entrance": {
+      "type": "flash",
+      "seconds": 0.22
+    },
+    "visual": {
+      "type": "image",
+      "src": "assets/characters/jason/screenshots/gta6-clip-jason-1080.jpg",
+      "camera": "arc-right"
+    },
+    "overlays": [
+      {
+        "kind": "headline",
+        "t": 0.15,
+        "kicker": "IDENTITÉ",
+        "text": "Masque. Tenue. Visage.",
+        "animation": "rise"
+      },
+      {
+        "kind": "heat",
+        "t": 2.25,
+        "title": "CE QUI PEUT ÊTRE RETENU",
+        "clues": [
+          "TENUE",
+          "VISAGE"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "car-theft-choice",
+    "seconds": 6,
+    "pace": "steady",
+    "entrance": {
+      "type": "wipe",
+      "seconds": 0.38
+    },
+    "visual": {
+      "type": "montage",
+      "layout": "fan",
+      "pinned": "CHOISIR LE BON VÉHICULE",
+      "timeline": true,
+      "reveal": {
+        "card": 0,
+        "at": 2.0,
+        "seconds": 1.05
+      },
+      "cards": [
+        {
+          "type": "image",
+          "src": "assets/vehicles/autres/wyman-car/ultimateedition-wyman-car-collection-04-1080.jpg",
+          "label": "SPORT · CUSTOM",
+          "detail": "Un profil très visible."
+        },
+        {
+          "type": "image",
+          "src": "assets/vehicles/autres/wyman-car/ultimateedition-wyman-car-collection-03-1080.jpg",
+          "label": "PICK-UP · BOUE",
+          "detail": "Gabarit et traces différents."
+        },
+        {
+          "type": "image",
+          "src": "assets/vehicles/autres/wyman-car/ultimateedition-wyman-car-collection-02-1080.jpg",
+          "label": "CLASSIQUE · VICE CITY",
+          "detail": "Une silhouette plus discrète."
+        }
+      ]
+    },
+    "overlays": []
+  },
+  {
+    "id": "gps-tracker",
+    "seconds": 5.8,
+    "pace": "steady",
+    "entrance": {
+      "type": "cut",
+      "seconds": 0
+    },
+    "visual": {
+      "type": "image",
+      "src": "assets/vehicles/sport/car-bloomberg/gta-6-car-bloomberg-1080.jpg",
+      "camera": "whip-left"
+    },
+    "overlays": [
+      {
+        "kind": "headline",
+        "t": 0.15,
+        "kicker": "TRACEUR GPS",
+        "text": "Le GPS peut vous trahir",
+        "animation": "rise"
+      },
+      {
+        "kind": "caption",
+        "t": 1.35,
+        "text": "Selon Rob Nelson, certains traceurs transmettent la position à la police.",
+        "animation": "slide-left"
+      },
+      {
+        "kind": "focus",
+        "t": 2.05,
+        "x": 690,
+        "y": 490,
+        "width": 690,
+        "height": 325,
+        "title": "TRACEUR AVANCÉ",
+        "detail": "Ralentir trop longtemps peut le faire biper.",
+        "side": "left",
+        "color": "#d6447f"
+      }
+    ]
+  },
+  {
+    "id": "vehicle-and-cargo",
+    "seconds": 5.5,
+    "pace": "steady",
+    "entrance": {
+      "type": "wipe",
+      "seconds": 0.38
+    },
+    "visual": {
+      "type": "image",
+      "src": "assets/editorials/gta6-screen-extendedlook-08-1080.jpg",
+      "camera": "pull"
+    },
+    "overlays": [
+      {
+        "kind": "headline",
+        "t": 0.16,
+        "kicker": "BUTIN · CAPACITÉ",
+        "text": "Le butin pèse sur la fuite",
+        "animation": "rise"
+      },
+      {
+        "kind": "caption",
+        "t": 1.7,
+        "text": "Les sacs ont une limite : un gros coup demande un véhicule adapté.",
+        "animation": "slide-left"
+      },
+      {
+        "kind": "stat",
+        "t": 2.25,
+        "value": "VOLUME",
+        "label": "Choisir son véhicule",
+        "detail": "Rapide ≠ pratique",
+        "animation": "pop"
+      }
+    ]
+  },
+  {
+    "id": "shop-witness-and-cameras",
+    "seconds": 6,
+    "pace": "steady",
+    "entrance": {
+      "type": "flash",
+      "seconds": 0.22
+    },
+    "visual": {
+      "type": "image",
+      "src": "assets/editorials/ultimateedition-ptt-store-01-1080.jpg",
+      "camera": "tilt-down"
+    },
+    "overlays": [
+      {
+        "kind": "headline",
+        "t": 0.15,
+        "kicker": "DANS LE MAGASIN",
+        "text": "Les témoins comptent",
+        "animation": "rise"
+      },
+      {
+        "kind": "caption",
+        "t": 1.5,
+        "text": "Clients, employés, alarmes et caméras peuvent laisser une trace.",
+        "animation": "slide-left"
+      },
+      {
+        "kind": "focus",
+        "t": 2.25,
+        "x": 440,
+        "y": 350,
+        "width": 560,
+        "height": 420,
+        "title": "PLUSIEURS SOURCES",
+        "detail": "Une caméra détruite ne supprime pas forcément une copie distante.",
+        "side": "right",
+        "color": "#f5a524"
+      }
+    ]
+  },
+  {
+    "id": "intimidation-not-escalation",
+    "seconds": 5.5,
+    "pace": "steady",
+    "entrance": {
+      "type": "wipe",
+      "seconds": 0.38
+    },
+    "visual": {
+      "type": "image",
+      "src": "assets/characters/shared/screenshots/gta-6-edge-preview-screen-6-1080.jpg",
+      "camera": "push"
+    },
+    "overlays": [
+      {
+        "kind": "headline",
+        "t": 0.15,
+        "kicker": "GARDER LE CONTRÔLE",
+        "text": "Faire peur sans tirer",
+        "animation": "rise"
+      },
+      {
+        "kind": "caption",
+        "t": 1.55,
+        "text": "Les extraits montrent aussi la menace comme moyen d’obtenir une voiture.",
+        "animation": "slide-left"
+      },
+      {
+        "kind": "label",
+        "t": 2.2,
+        "x": 1190,
+        "y": 770,
+        "text": "MOINS D’ESCALADE",
+        "detail": "La violence inutile pèse sur le profil",
+        "color": "#37c28a",
+        "animation": "pop"
+      }
+    ]
+  },
+  {
+    "id": "shot-consequences",
+    "seconds": 5.5,
+    "pace": "steady",
+    "entrance": {
+      "type": "flash",
+      "seconds": 0.22
+    },
+    "visual": {
+      "type": "image",
+      "src": "assets/characters/jason/screenshots/gta-6-jason-duval-12-1080.jpg",
+      "camera": "push"
+    },
+    "overlays": [
+      {
+        "kind": "headline",
+        "t": 0.12,
+        "kicker": "SI LA SITUATION DÉGÉNÈRE",
+        "text": "Neutraliser n’est pas tuer",
+        "animation": "rise"
+      },
+      {
+        "kind": "caption",
+        "t": 1.5,
+        "text": "La présentation distingue atteinte mortelle et neutralisation non létale.",
+        "animation": "slide-left"
+      },
+      {
+        "kind": "label",
+        "t": 2.05,
+        "x": 1270,
+        "y": 385,
+        "text": "CROIX JAUNE",
+        "detail": "Cible neutralisée, encore vivante",
+        "color": "#f5a524",
+        "animation": "pop"
+      },
+      {
+        "kind": "label",
+        "t": 2.9,
+        "x": 1270,
+        "y": 530,
+        "text": "POINT ROUGE",
+        "detail": "Tir mortel",
+        "color": "#d93a4a",
+        "animation": "pop"
+      }
+    ]
+  },
+  {
+    "id": "robbery-example",
+    "seconds": 6,
+    "pace": "steady",
+    "entrance": {
+      "type": "wipe",
+      "seconds": 0.38
+    },
+    "visual": {
+      "type": "image",
+      "src": "assets/characters/shared/screenshots/gta-6-jason-and-lucia-15-1080.jpg",
+      "camera": "push"
+    },
+    "overlays": [
+      {
+        "kind": "headline",
+        "t": 0.12,
+        "kicker": "L’EXEMPLE DE ROB NELSON",
+        "text": "Braquage : trois décisions",
+        "animation": "rise"
+      },
+      {
+        "kind": "evidence",
+        "t": 1.35,
+        "title": "La séquence montrée",
+        "lines": [
+          "Entrer masqué",
+          "Récupérer les images",
+          "Quitter quand l’alerte tombe"
+        ],
+        "reveal": "L’exemple vient d’une démonstration presse.",
+        "animation": "slide-left",
+        "x": 1080,
+        "y": 350,
+        "width": 720
+      }
+    ]
+  },
+  {
+    "id": "crime-scene-perimeter",
+    "seconds": 5.8,
+    "pace": "steady",
+    "entrance": {
+      "type": "wipe",
+      "seconds": 0.38
+    },
+    "visual": {
+      "type": "image",
+      "src": "assets/map/regions/vice-city/screenshots/gta-6-vice-city-17-1080.jpg",
+      "camera": "arc-left"
+    },
+    "overlays": [
+      {
+        "kind": "headline",
+        "t": 0.12,
+        "kicker": "APRÈS LE SIGNALEMENT",
+        "text": "Le lieu reste à risque",
+        "animation": "rise"
+      },
+      {
+        "kind": "caption",
+        "t": 1.55,
+        "text": "Dans la démonstration décrite par IGN, la police établit un périmètre autour du magasin.",
+        "animation": "slide-left"
+      },
+      {
+        "kind": "focus",
+        "t": 2.45,
+        "x": 680,
+        "y": 385,
+        "width": 720,
+        "height": 430,
+        "title": "PÉRIMÈTRE POLICIER",
+        "detail": "Revenir sur les lieux peut relancer le danger.",
+        "side": "left",
+        "color": "#f49ac1"
+      }
+    ]
+  },
+  {
+    "id": "wanted-six-stars",
+    "seconds": 5.5,
+    "pace": "steady",
+    "entrance": {
+      "type": "flash",
+      "seconds": 0.22
+    },
+    "visual": {
+      "type": "graphic",
+      "style": "night"
+    },
+    "overlays": [
+      {
+        "kind": "headline",
+        "t": 0.18,
+        "kicker": "NIVEAU DE RECHERCHE",
+        "text": "Six étoiles au compteur",
+        "animation": "rise"
+      },
+      {
+        "kind": "caption",
+        "t": 1.2,
+        "text": "Les images de présentation montrent un maximum de six étoiles.",
+        "animation": "slide-left"
+      },
+      {
+        "kind": "wanted",
+        "t": 1.65,
+        "stars": 6,
+        "state": "Réponse maximale",
+        "detail": "Les aperçus montrent une recherche plus intense.",
+        "mode": "pursuit",
+        "x": 1298,
+        "y": 430
+      }
+    ]
+  },
+  {
+    "id": "wanted-states",
+    "seconds": 6,
+    "pace": "steady",
+    "entrance": {
+      "type": "wipe",
+      "seconds": 0.38
+    },
+    "visual": {
+      "type": "image",
+      "src": "assets/map/regions/vice-city/screenshots/vice-city-08-1080.jpg",
+      "camera": "pull"
+    },
+    "overlays": [
+      {
+        "kind": "headline",
+        "t": 0.12,
+        "kicker": "LIRE L’INTERFACE",
+        "text": "Les étoiles changent d’état",
+        "animation": "rise"
+      },
+      {
+        "kind": "caption",
+        "t": 1.25,
+        "text": "Poursuite, recherche, identité inconnue : l’interface semble les distinguer.",
+        "animation": "slide-left"
+      },
+      {
+        "kind": "wanted",
+        "t": 1.75,
+        "stars": 3,
+        "state": "Perdu de vue · recherché",
+        "detail": "Lecture des extraits de gameplay, pas une fiche officielle.",
+        "mode": "search",
+        "x": 1298,
+        "y": 430
+      }
+    ]
+  },
+  {
+    "id": "hollow-stars",
+    "seconds": 5.5,
+    "pace": "steady",
+    "entrance": {
+      "type": "cut",
+      "seconds": 0
+    },
+    "visual": {
+      "type": "image",
+      "src": "assets/characters/lucia/screenshots/gta6-screen-extendedlook-21-1080.jpg",
+      "camera": "push"
+    },
+    "overlays": [
+      {
+        "kind": "headline",
+        "t": 0.12,
+        "kicker": "ÉTOILES CREUSES",
+        "text": "Alerte sans identité",
+        "animation": "rise"
+      },
+      {
+        "kind": "caption",
+        "t": 1.3,
+        "text": "Rob Nelson explique : la police sait qu’un crime a eu lieu, pas qui l’a commis.",
+        "animation": "slide-left"
+      },
+      {
+        "kind": "wanted",
+        "t": 1.6,
+        "stars": 2,
+        "state": "Auteur non identifié",
+        "detail": "Étoiles creuses décrites par Nelson dans l’entretien IGN.",
+        "mode": "unknown",
+        "x": 1298,
+        "y": 430
+      }
+    ]
+  },
+  {
+    "id": "no-minimap-cops",
+    "seconds": 6,
+    "pace": "steady",
+    "entrance": {
+      "type": "wipe",
+      "seconds": 0.38
+    },
+    "visual": {
+      "type": "image",
+      "src": "assets/map/regions/vice-city/screenshots/gta-6-vice-city-14-1080.jpg",
+      "camera": "arc-right"
+    },
+    "overlays": [
+      {
+        "kind": "headline",
+        "t": 0.12,
+        "kicker": "APRÈS LA PERTE DE VUE",
+        "text": "La mini-carte ne suffit plus",
+        "animation": "rise"
+      },
+      {
+        "kind": "caption",
+        "t": 1.5,
+        "text": "Nelson confirme : les policiers ne sont plus affichés comme points radar.",
+        "animation": "slide-left"
+      },
+      {
+        "kind": "evidence",
+        "t": 2.15,
+        "title": "Deux outils évoqués",
+        "lines": [
+          "Indicateur périphérique",
+          "Focus pour repérer les policiers"
+        ],
+        "reveal": "Le joueur doit observer davantage.",
+        "animation": "rise",
+        "x": 1080,
+        "y": 350,
+        "width": 720
+      }
+    ]
+  },
+  {
+    "id": "search-area",
+    "seconds": 6.5,
+    "pace": "steady",
+    "entrance": {
+      "type": "flash",
+      "seconds": 0.22
+    },
+    "visual": {
+      "type": "image",
+      "src": "assets/map/regions/vice-city/screenshots/gta-6-vice-city-22-1080.jpg",
+      "camera": "push"
+    },
+    "overlays": [
+      {
+        "kind": "headline",
+        "t": 0.12,
+        "kicker": "ZONE DE RECHERCHE",
+        "text": "Quitter le périmètre",
+        "animation": "rise"
+      },
+      {
+        "kind": "search",
+        "t": 1.0,
+        "title": "Deux cercles · une issue",
+        "detail": "Schéma : la zone rouge persiste après la poursuite.",
+        "route": [
+          [
+            1260,
+            490
+          ],
+          [
+            1130,
+            420
+          ],
+          [
+            960,
+            470
+          ],
+          [
+            830,
+            390
+          ],
+          [
+            700,
+            420
+          ],
+          [
+            620,
+            315
+          ]
+        ],
+        "duration": 4.8
+      }
+    ]
+  },
+  {
+    "id": "escape-on-foot",
+    "seconds": 5.5,
+    "pace": "steady",
+    "entrance": {
+      "type": "cut",
+      "seconds": 0
+    },
+    "visual": {
+      "type": "image",
+      "src": "assets/map/regions/vice-city/screenshots/vice-city-06-1080.jpg",
+      "camera": "pan-left"
+    },
+    "overlays": [
+      {
+        "kind": "headline",
+        "t": 0.15,
+        "kicker": "CHANGER DE RYTHME",
+        "text": "À pied, la ville change",
+        "animation": "rise"
+      },
+      {
+        "kind": "caption",
+        "t": 1.4,
+        "text": "Les aperçus évoquent endurance variable et poursuites à pied.",
+        "animation": "slide-left"
+      },
+      {
+        "kind": "label",
+        "t": 2.1,
+        "x": 1170,
+        "y": 715,
+        "text": "RUES ÉTROITES",
+        "detail": "À trois étoiles, la voiture peut devenir un piège",
+        "color": "#f5a524",
+        "animation": "slide-left"
+      }
+    ]
+  },
+  {
+    "id": "escape-alternatives",
+    "seconds": 5.5,
+    "pace": "steady",
+    "entrance": {
+      "type": "wipe",
+      "seconds": 0.38
+    },
+    "visual": {
+      "type": "montage",
+      "layout": "duo",
+      "pinned": "CHANGER DE TERRAIN · ROMPRE LA POURSUITE",
+      "timeline": true,
+      "cards": [
+        {
+          "type": "image",
+          "src": "assets/vehicles/moto/motorcycle/gta-6-edge-preview-screen-10-1080.jpg",
+          "label": "À DEUX ROUES",
+          "detail": "Se faufiler dans la circulation."
+        },
+        {
+          "type": "image",
+          "src": "assets/vehicles/bateau/squalo/ultimateedition-squalo-01-1080.jpg",
+          "label": "PRENDRE L’EAU",
+          "detail": "Quitter les axes routiers."
+        }
+      ]
+    },
+    "overlays": []
+  },
+  {
+    "id": "car-chase-options",
+    "seconds": 6,
+    "pace": "steady",
+    "entrance": {
+      "type": "flash",
+      "seconds": 0.22
+    },
+    "visual": {
+      "type": "montage",
+      "layout": "fan",
+      "pinned": "POURSUITE · CHOIX DU VÉHICULE",
+      "timeline": true,
+      "cards": [
+        {
+          "type": "image",
+          "src": "assets/characters/jason/screenshots/gta-6-jason-duval-11-1080.jpg",
+          "label": "FUIR EN MOTO",
+          "detail": "Changer de gabarit, changer de trajectoire."
+        },
+        {
+          "type": "image",
+          "src": "assets/characters/lucia/screenshots/gta6-screen-extendedlook-21-1080.jpg",
+          "label": "LUCIA · AU VOLANT",
+          "detail": "Les lumières de police se reflètent dans la vitre."
+        },
+        {
+          "type": "image",
+          "src": "assets/characters/shared/screenshots/gta-6-jason-and-lucia-17-1080.jpg",
+          "label": "JASON · AU VOLANT",
+          "detail": "Lucia reste à ses côtés pendant la fuite."
+        }
+      ],
+      "reveal": {
+        "card": 2,
+        "at": 2.15,
+        "seconds": 1.15
+      }
+    },
+    "overlays": []
+  },
+  {
+    "id": "caught-has-cost",
+    "seconds": 5.5,
+    "pace": "steady",
+    "entrance": {
+      "type": "wipe",
+      "seconds": 0.38
+    },
+    "visual": {
+      "type": "graphic",
+      "style": "paper-grid"
+    },
+    "overlays": [
+      {
+        "kind": "headline",
+        "t": 0.15,
+        "kicker": "SI VOUS ÊTES ARRÊTÉ",
+        "text": "Trois formes d’argent",
+        "animation": "rise"
+      },
+      {
+        "kind": "evidence",
+        "t": 1.05,
+        "title": "Trois poches",
+        "lines": [
+          "Compte bancaire · sécurisé",
+          "Butin · à revendre",
+          "Liquide · transporté sur soi"
+        ],
+        "reveal": "Être arrêté peut coûter le butin et le liquide.",
+        "animation": "rise",
+        "x": 1080,
+        "y": 350,
+        "width": 720
+      }
+    ]
+  },
+  {
+    "id": "heat-memory",
+    "seconds": 6.5,
+    "pace": "steady",
+    "entrance": {
+      "type": "flash",
+      "seconds": 0.22
+    },
+    "visual": {
+      "type": "image",
+      "src": "assets/characters/shared/screenshots/gta-6-jason-and-lucia-20-1080.jpg",
+      "camera": "tilt-up"
+    },
+    "overlays": [
+      {
+        "kind": "headline",
+        "t": 0.12,
+        "kicker": "LA CHALEUR",
+        "text": "Les indices persistent.",
+        "animation": "rise"
+      },
+      {
+        "kind": "heat",
+        "t": 1.9,
+        "title": "INDICES RETENUS PAR LA POLICE",
+        "clues": [
+          "CAMÉRA",
+          "TENUE",
+          "VISAGE",
+          "ARME",
+          "VÉHICULE",
+          "BINÔME"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "remove-clues",
+    "seconds": 6,
+    "pace": "steady",
+    "entrance": {
+      "type": "wipe",
+      "seconds": 0.38
+    },
+    "visual": {
+      "type": "image",
+      "src": "assets/characters/shared/screenshots/gta6-screen-extendedlook-17-ign-1080.jpg",
+      "camera": "pull"
+    },
+    "overlays": [
+      {
+        "kind": "headline",
+        "t": 0.12,
+        "kicker": "RÉDUIRE LA CHALEUR",
+        "text": "Effacer chaque indice",
+        "animation": "rise"
+      },
+      {
+        "kind": "heat",
+        "t": 2.05,
+        "title": "ACTIONS ÉVOQUÉES DANS LES APERÇUS",
+        "clues": [
+          "TENUE",
+          "ARME",
+          "VÉHICULE",
+          "BINÔME"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "criminal-profile",
+    "seconds": 6.5,
+    "pace": "steady",
+    "entrance": {
+      "type": "flash",
+      "seconds": 0.22
+    },
+    "visual": {
+      "type": "graphic",
+      "style": "starfield"
+    },
+    "overlays": [
+      {
+        "kind": "headline",
+        "t": 0.15,
+        "kicker": "PROFIL CRIMINEL",
+        "text": "Vos choix marquent le profil",
+        "animation": "rise"
+      },
+      {
+        "kind": "profile",
+        "t": 1.8,
+        "value": 2.6,
+        "detail": "Jason et Lucia ont leur propre profil."
+      }
+    ]
+  },
+  {
+    "id": "profile-irreversible",
+    "seconds": 5.5,
+    "pace": "steady",
+    "entrance": {
+      "type": "cut",
+      "seconds": 0
+    },
+    "visual": {
+      "type": "image",
+      "src": "assets/characters/shared/screenshots/gta-6-jason-and-lucia-17-1080.jpg",
+      "camera": "whip-right"
+    },
+    "overlays": [
+      {
+        "kind": "headline",
+        "t": 0.12,
+        "kicker": "EXTRÊME VIOLENCE",
+        "text": "La réputation peut se figer",
+        "animation": "rise"
+      },
+      {
+        "kind": "profile",
+        "t": 1.8,
+        "value": 4,
+        "detail": "Détail rapporté en préversion, à confirmer dans le jeu final.",
+        "shattered": true
+      }
+    ]
+  },
+  {
+    "id": "heist-loop-summary",
+    "seconds": 7,
+    "pace": "steady",
+    "entrance": {
+      "type": "wipe",
+      "seconds": 0.38
+    },
+    "visual": {
+      "type": "montage",
+      "layout": "fan",
+      "pinned": "PRÉPARER · AGIR · S’ÉCHAPPER",
+      "timeline": true,
+      "reveal": {
+        "card": 2,
+        "at": 3.8,
+        "seconds": 1.1
+      },
+      "cards": [
+        {
+          "type": "image",
+          "src": "assets/vehicles/autres/safehouse-vehicles/ultimateedition-safehouse-vehicles-01-1080.jpg",
+          "label": "CHOISIR SON DÉPART",
+          "detail": "Le véhicule fait partie du plan."
+        },
+        {
+          "type": "image",
+          "src": "assets/editorials/gta6-screen-extendedlook-08-1080.jpg",
+          "label": "PASSER À L’ACTION",
+          "detail": "Le butin ouvre la fuite."
+        },
+        {
+          "type": "image",
+          "src": "assets/characters/jason/screenshots/gta-6-jason-duval-11-1080.jpg",
+          "label": "ROMPRE LA POURSUITE",
+          "detail": "Changer de rythme et d’itinéraire."
+        }
+      ]
+    },
+    "overlays": []
+  },
+  {
+    "id": "sources-card",
+    "seconds": 6,
+    "pace": "slow",
+    "entrance": {
+      "type": "cut",
+      "seconds": 0
+    },
+    "visual": {
+      "type": "graphic",
+      "style": "paper-grid"
+    },
+    "overlays": [
+      {
+        "kind": "evidence",
+        "t": 0.2,
+        "title": "Sources & niveau de preuve",
+        "lines": [
+          "Rockstar · Extended Look · 27 août 2026",
+          "IGN · entretien Rob Nelson · 7 oct. 2026",
+          "PC Gamer · aperçu Edge · 30 oct. 2026",
+          "PC Gamer · profil brisé rapporté · 7 sept. 2026"
+        ],
+        "reveal": "Systèmes pré-sortie : certains détails peuvent évoluer.",
+        "animation": "rise",
+        "x": 1080,
+        "y": 155,
+        "width": 720
+      },
+      {
+        "kind": "caption",
+        "t": 3.4,
+        "text": "Montage muet · synthèse du script fourni · 10 novembre 2026",
+        "animation": "fade"
+      }
+    ]
+  }
+]

@@ -1,0 +1,50 @@
+[
+  {
+    "id": "s01-presentation",
+    "seconds": 5.2,
+    "pace": "steady",
+    "visual": {
+      "type": "image",
+      "src": "assets/characters/jason/screenshots/jason-duval-01-1080.jpg",
+      "camera": "push"
+    },
+    "entrance": { "type": "cut" },
+    "overlays": [
+      {
+        "kind": "headline",
+        "t": 0.3,
+        "kicker": "PERSONNAGE · VICE CITY",
+        "text": "Jason Duval",
+        "animation": "rise"
+      },
+      {
+        "kind": "caption",
+        "t": 2.1,
+        "text": "Une scène, une intention visuelle claire.",
+        "animation": "fade"
+      }
+    ]
+  },
+  {
+    "id": "s02-detail",
+    "seconds": 4.8,
+    "pace": "fast",
+    "visual": {
+      "type": "image",
+      "src": "assets/vehicles/sport/grotti-cheetah/ultimateedition-grotti-cheetah-01-1080.jpg",
+      "camera": "pan-right"
+    },
+    "entrance": { "type": "wipe", "seconds": 0.45 },
+    "overlays": [
+      {
+        "kind": "label",
+        "t": 1.1,
+        "x": 1290,
+        "y": 540,
+        "text": "Grotti Cheetah",
+        "detail": "Annotation synchronisée au commentaire",
+        "animation": "pop"
+      }
+    ]
+  }
+]
